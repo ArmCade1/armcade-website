@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: #d4af37;
+}
+.logo {
+    max-width: 150px;
+}
+nav {
+    text-align: center;
+    background: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+.swiper {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+}
+.swiper-slide {
+    background: #555;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.light-mode {
+    background: #f5f5f5;
+    color: #111;
+}
+.light-mode nav {
+    background: #ddd;
+}
+.light-mode footer {
+    background: #ccc;
+    color: #111;
+}
